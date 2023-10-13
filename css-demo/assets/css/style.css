@@ -26,12 +26,38 @@ html {
     max-width:80vw;
     margin:40px auto;
   }
+
+  .img-right{
+    float:right;
+    margin:10px 0 10px 20px;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    box-shadow:4px 4px 2px right(0,0,0,.4);
+  }
+
+  .img-left{
+    float:left;
+    margin:10px 20px 10px 0;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    box-shadow:4px 4px 2px right(0,0,0,.4);
+  }
+
+  .img-center{
+    display:block;
+    margin:20px auto;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    box-shadow:4px 4px 2px right(0,0,0,.4);
+  }
   
   /*  --------------- Global Styles -----------------  */
   
   body{
   font-family: 'Gabarito', sans-serif;
   margin:0;  
+  background-image:url("../img/colin.jpg");
+  background-repeat:space;
   }
   
   header.primary{
@@ -149,6 +175,11 @@ html {
     padding:2px;
     margin:10px auto;
   }
+
+  #practice h2{
+    color:#3b638b;
+    border-bottom: 1px solid #c0c0c0;
+  }
   
   aside[role="complementary"]{
     background-color: #172635;
@@ -162,9 +193,26 @@ html {
     gap:40px;
   }
   
+  aside .container a:last-of-type{
+    color:#ffffff;
+    display:block;
+    text-align:right;
+    font-size:.8rem;
+    margin-top:10px;
+  }
   
-    
-  
+  aside .continer a{color:#ffffff;}
+
+  aside footer{
+    visibility:none;
+  }
+
+  #colophon{
+    background-color:#3b638b;
+    padding:10px;
+    color:#fff;
+    text-align:center;
+  }
   
   
   
@@ -190,6 +238,13 @@ html {
     }
     header.primary nav ul a{
       display:block;
+    }
+    #content, aside .container{
+      flex-direction:column;
+    }
+    #content img{
+      display:block;
+      margin:auto;
     }
   }
   
