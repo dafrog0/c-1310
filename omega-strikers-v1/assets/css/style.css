@@ -1,0 +1,25 @@
+/*  --------------- Box Sizing -----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*  --------------- Responsive Images -----------------  */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*  --------------- Utility Classes -----------------  */
+
+/*  --------------- Global Styles -----------------  */
+
+body {
+margin:0;
+}
