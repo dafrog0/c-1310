@@ -46,7 +46,7 @@ header.primary h1{
 
 header.primary h1 a{
   font-size:6rem;
-  color:rgb(255, 33, 236);
+  color:rgb(204, 102, 195);
   transition:.1s;
 }
 
@@ -56,7 +56,7 @@ header.primary h1 a:hover{
 }
 
 header.primary h2{
-  color:rgb(255, 33, 236);
+  color:rgb(204, 102, 195);
   font-style:italic;
   text-align:center;
   text-shadow:3px 2px #000;
@@ -85,7 +85,7 @@ header.primary nav ul li{
 }
 
 header.primary nav ul li a{
-  color:#ffadad;
+  color:rgb(204, 102, 195);
   text-decoration:none;
   background-color:#000000;
   background-color:rgba(0,0,0,.4);
