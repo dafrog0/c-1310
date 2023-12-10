@@ -6,3 +6,9 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+  body{
+    font-family: "Verdana";
+    background-color: rgb(163, 163, 224);
+    font-size:18px;
+  }

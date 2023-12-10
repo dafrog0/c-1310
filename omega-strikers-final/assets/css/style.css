@@ -22,29 +22,6 @@ img {
   margin: 40px auto;
 }
 
-.img-right {
-  float: right;
-  margin: 10px 0 10px 20px;
-  padding: 5px;
-  box-shadow: 4px 4px 2px right(0, 0, 0, 0.4);
-}
-
-.img-left {
-  float: left;
-  margin: 10px 20px 10px 0;
-  border: 1px solid #c0c0c0;
-  padding: 5px;
-  box-shadow: 4px 4px 2px right(0, 0, 0, 0.4);
-}
-
-.img-center {
-  display: block;
-  margin: 20px auto;
-  border: 1px solid #c0c0c0;
-  padding: 5px;
-  box-shadow: 4px 4px 2px right(0, 0, 0, 0.4);
-}
-
 /*  --------------- Global Styles -----------------  */
 
 body {
@@ -126,7 +103,7 @@ header.primary nav ul li a {
   padding: 5px 10px;
   font-size: 2rem;
   border: 1px solid #696969;
-  border-radius: 5px;
+  border-radius: 25px;
   transition: 0.2s;
 }
 
@@ -137,13 +114,13 @@ header.primary nav ul li a:hover {
 }
 
 header.primary nav ul li a:active {
-  background-color: rgba(0, 0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 1);
   font-size: 2.5rem;
 }
 
 #content {
   color: #ffffff;
-  margin: 50px;
+  margin: auto;
   font-size:20px;
   line-height:30px;
 }
